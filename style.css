@@ -1,0 +1,72 @@
+body {
+    background-image: url("a.jpg!d");
+
+    color: rgb(35, 41, 40);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0 20px 0 20px;
+}
+
+h1 {
+    text-align: center;
+    border-bottom: 2px dashed black;
+    color: floralwhite;
+}
+
+h2 {
+    margin: 30px;
+    background-color: rgb(136, 207, 3);
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+    margin-right: 20px;
+    text-align: center;
+ 
+}
+
+figure {
+    display: none;
+}
+
+#r1 {
+    display: none;
+}
+#textOutput {
+    margin-left: 50px;
+    line-height: 1.5;
+    color: floralwhite;
+}
+
+#graphOutput {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 320px;
+    height: 200px;
+    background-color: rgb(146, 146, 146);
+    border: 1.5px solid rgb(0, 0, 0);
+    margin: 40px auto;
+}
+
+#graphOutput div {
+    width: 27px;
+    height: 50px;
+    background-color: rgb(136, 207, 3);
+    border: 1px dashed rgb(0, 80, 40, 0.5);
+    border-bottom: none;
+    
+}
+
+@media screen and (min-width: 768px){
+
+body {
+background-size: 100%;
+}
+#graphOutput {
+    width: 700px;
+    height: 220px;
+}    
+
+#graphOutput div {
+    width: 50px;
+}
+}
